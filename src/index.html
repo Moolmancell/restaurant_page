@@ -4,44 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" src="./styles.css">
 </head>
 <body>
-    <header>
-        <nav class="logo">expice</nav>
-        <nav>Home</nav>
-        <nav>Menu</nav>
-        <nav>About</nav>
+    <header id="navbar">
+        <nav class="logo rowdies-regular">expice</nav>
+        <div class="buttons">
+            <nav>Home</nav>
+            <nav>Menu</nav>
+            <nav>About</nav>
+        </div>
     </header>
     <div id="content">
         <section class="landing">
-            <h1>Food is Cool</h1>
+            <h1 class="inter-bold">Every Bite That Counts</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec sodales ligula, vel auctor nisi. Integer id massa eget tortor.</p>
             <a href="#">Order Food now</a>
-            <div class="vegetable-header">
-                <img id="vegetable-picture">
-                <div class="shape-header"></div>
-            </div>
         </section>
-        <section class="booking">
-            <H1>Book Now</H1>
-            <form>
-                <label for="fname">Full Name:</label>
-                <input type="text" name="fname" id="fname">
-                <br>
-                <label for="date">Date:</label>
-                <input type="datetime" name="date" id="date">
-                <br>
-                <input type="submit" value="Submit">
-            </form>
-        </section>
-        <section class="notified">
-            <h1>Get Notified About Our Amazing Products</h1>
-            <form>
-                <input type="email" name="email">
-                <input type="submit">
-            </form>
-        </section>
+        <img id="background-img">
     </div>
 </body>
 </html>
