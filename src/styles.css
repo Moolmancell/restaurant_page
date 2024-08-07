@@ -30,17 +30,18 @@ body {
     font-size: 32px;
 }
 
-.buttons {
+.nav-buttons {
     display: flex;
     gap: 48px;
 }
 
-.buttons nav {
+.nav-buttons nav {
     font-size: 14px;
 }
 
 #content {
     padding: 0 64px;
+    max-width: 1440px;
 }
 
 .landing {
@@ -88,3 +89,5 @@ body {
     object-fit: cover;
     filter: brightness(60%)
 }
+
+/* Menu designs*/
