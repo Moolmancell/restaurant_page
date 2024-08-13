@@ -28,10 +28,6 @@ let Foodmenu = [
 
 export function menu() {
 
-<<<<<<< HEAD
-=======
-    document.getElementById("content").innerHTML = ""
->>>>>>> b0d265cf923ce87f63b9811711307febd49f8f2d
 
     Foodmenu.forEach(element => {
         
