@@ -1,5 +1,6 @@
 export function home() {
     const content = document.getElementById("content");
+    content.innerHTML = ""
 
     const landing = document.createElement("section");
     landing.classList.add("landing")

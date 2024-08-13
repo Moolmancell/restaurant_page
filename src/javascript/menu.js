@@ -28,8 +28,10 @@ let Foodmenu = [
 
 export function menu() {
 
-    Foodmenu.forEach(element => {
+    document.getElementById("content").innerHTML = ""
 
+    Foodmenu.forEach(element => {
+        
         const section = document.createElement("section");
 
         const category = document.createElement("h1");

@@ -7,4 +7,6 @@ import { menu } from './javascript/menu.js'
 
 document.getElementById("background-img").src = background;
 
+
+
 menu();
