@@ -40,6 +40,7 @@ body {
 }
 
 #content {
+    color: white;
     padding: 0 64px;
     max-width: 1440px;
 }
@@ -91,3 +92,58 @@ body {
 }
 
 /* Menu designs*/
+
+.category {
+    font-size: 32px;
+}
+
+.foodFlex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.food {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: auto;
+    color: black;
+}
+
+.contents {
+    box-sizing: border-box;
+    background-color: white;
+    padding: 20px;
+    border-radius: 0 0 20px 20px;
+}
+
+.contents h1 {
+    margin: 0
+}
+
+.food .food-img {
+    border-radius: 20px 20px 0 0;
+    width: auto;
+    object-fit: cover;
+    height: 250px;
+}
+
+.food button {
+    width: fit-content;
+    margin-top: 32px;
+    appearance: none;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    display: flex;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    gap: 5px;
+}
+
+/* About */
