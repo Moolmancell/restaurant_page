@@ -35,7 +35,19 @@ body {
     gap: 48px;
 }
 
-.nav-buttons nav {
+.nav-buttons nav button {
+    appearance: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 14px;
+}
+
+.nav-buttons nav button:hover {
+    appearance: none;
+    background: none;
+    border: none;
+    color: grey;
     font-size: 14px;
 }
 

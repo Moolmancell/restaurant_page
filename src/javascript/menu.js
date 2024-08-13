@@ -28,6 +28,7 @@ let Foodmenu = [
 
 export function menu() {
 
+    document.getElementById("content").innerHTML = "";
 
     Foodmenu.forEach(element => {
         

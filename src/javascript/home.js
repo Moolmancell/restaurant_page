@@ -1,3 +1,5 @@
+import {menu} from './menu.js'
+
 export function home() {
     const content = document.getElementById("content");
     content.innerHTML = ""
@@ -20,6 +22,9 @@ export function home() {
     const button = document.createElement("a");
     button.href = "#";
     button.textContent = "Order Now";
+    button.addEventListener("click", () => {
+        menu();
+    })
     landing.appendChild(button);
 
     content.appendChild(landing);
