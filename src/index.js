@@ -1,5 +1,12 @@
-import './styles.css'
-import './images.js'
-import { home } from './home.js'
+import background from './images/background.jpg'
 
-home();
+import './styles.css'
+
+import { home } from './javascript/home.js'
+import { menu } from './javascript/menu.js'
+
+document.getElementById("background-img").src = background;
+
+
+
+menu();
